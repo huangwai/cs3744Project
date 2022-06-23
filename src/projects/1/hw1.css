@@ -1,0 +1,118 @@
+/*COLOR TEMPLATED UPLOADED FROM COLOR.ADOBE.COM8*/
+
+/* Color Theme Swatches in Hex */
+.Grungy-dark-interior-1-hex { color: #00010D; }
+.Grungy-dark-interior-2-hex { color: #3B403F; }
+.Grungy-dark-interior-3-hex { color: #8C8581; }
+.Grungy-dark-interior-4-hex { color: #BFB8B4; }
+.Grungy-dark-interior-5-hex { color: #D9D2D0; }
+
+/* Color Theme Swatches in RGBA */
+.Grungy-dark-interior-1-rgba { color: rgba(0, 0, 12, 1); }
+.Grungy-dark-interior-2-rgba { color: rgba(58, 63, 63, 1); }
+.Grungy-dark-interior-3-rgba { color: rgba(140, 133, 129, 1); }
+.Grungy-dark-interior-4-rgba { color: rgba(191, 183, 179, 1); }
+.Grungy-dark-interior-5-rgba { color: rgba(216, 209, 208, 1); }
+
+/* Tab Styling done here */
+.topnav{
+    padding: 20px;
+    padding-bottom: .5px;
+    padding-top: 30px;
+    border:none;
+    overflow: hidden;
+    font-size: large;
+    align-content: center;
+    background-color: #3B403F;
+}
+
+/* changes the tabs to make them look better */
+.topnav a {
+    background-color: inherit;
+    float: none;
+    transition: 0.3s;
+    padding: 14px 16px;
+    border: none;
+    outline: none;
+    color:#D9D2D0;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* When hovering over a certain tab, the background color changes */
+.topnav a:hover{
+    color:#00010D;
+    background-color: #BFB8B4;
+}
+
+/* The active tab is highlighted a different color than the other tabs */
+.topnav a.active{
+    background-color: #BFB8B4;
+    color: #00010D;
+}
+
+/*Sends the Contact tab to the right side of the header*/
+.topnav a.split{
+    float: right;
+    color: #D9D2D0;
+    padding: 5px;
+}
+
+/* Body Styling done here */
+.body{
+    color:#D9D2D0;
+    padding: 30px;
+    padding-top:.05px;
+    text-align: center;
+    background-color: #3B403F;
+    border: none;
+}
+
+/* Footer styling done her */
+.footer{
+    position: page;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3B403F;
+    text-align: center;
+    color: #D9D2D0;
+    display: block;
+    text-decoration: none;
+}
+
+/* Styles the Request button */
+#AJAXButton{
+    padding: 5px 12px;
+    border: none;
+    color: #D9D2D0;
+    background-color: #8C8581;
+}
+
+/* Highlight request button when hovering with cursor */
+#AJAXButton:hover{
+    background-color: #BFB8B4;
+    color: #00010D;
+}
+/*Changing shape of button to oval */
+#AJAXButton
+{
+    border-radius: 12px
+}
+
+/* adding some padding to image */
+#imgHolder
+{
+    padding-top: 20px;
+}
+
+/* adding padding to explanation element */
+#desc
+{
+    padding-top: 20px;
+}
+
+a:link{
+    color:white;
+}
+
