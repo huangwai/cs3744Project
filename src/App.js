@@ -3,9 +3,12 @@ import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Page from "./components/page";
 import Home from "./components/Home";
-import {Hw1, Hw2, Hw3} from "./components/DummyPages";
 import MyProjects from "./components/Projects";
 import NotFound from "./components/notFoundPage";
+import Homework2 from "./components/homework2";
+import P5Comp from "./components/p5"
+import NasaComponent from "./components/Homework1";
+
 
 
 function App(){
@@ -17,9 +20,10 @@ function App(){
             <Route path={"*"} element = {<NotFound />}/>
             <Route path = {"/projects"}>
                 <Route index element={<MyProjects />}/>
-                <Route path = {"1"} element={<Hw1 />}/>
-                <Route path = {"2"} element={<Hw2 />}/>
-                <Route path = {"3"} element={<Hw3 />}/>
+                <Route path = {"1"} element={<NasaComponent />}/>
+                <Route path = {"2"} element={<Homework2 />}/>
+                <Route path = {"3"} element={<P5Comp />}/>
+                <Route path = {"4"} element={<P5Comp />}/>
                 <Route path={"*"} element = {<NotFound />}/>
             </Route>
 

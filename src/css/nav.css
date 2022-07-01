@@ -1,35 +1,43 @@
 /*Color Template*/
-.yellow-hex {color: #F8ED6D; }
-.white-hex {color: #FFFFFF; }
-.orange-hex {color: #EF885D; }
-.red-hex {color: #B73A5C; }
-.purple-hex {color: #6B2D70; }
-.blue-hex {color: #3BA6BA; }
+.baby-pink {color: #F2C4C4; }
+.light-sliver-hex {color: #F2F2F2; }
+.clementine-hex {color: #F2A477; }
+.red-orange-hex {color: #F29472; }
+.state-blue-hex {color: #A9B5D9; }
 .lavendar-hex {color: #CCCCFF; }
+.orange-hex {color: #F0BC68; }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*
 Style nav bar when hovering over
  */
 nav a:hover {
-background-color: #FFFFFF;
+background-color: #F2F2F2;
     color:black;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px;
+    font-size: 35px;
+
 }
 nav a{
-    color:#FFFFFF;
+    color: #F2F2F2;
     text-decoration: none;
-    border: 2px solid #FFFFFF;
-    border-radius: 12px;
     padding: 14px;
     margin: 5px;
     align-content: center;
     text-align: center;
+    font-size: 30px;
 }
 /*
 Style the nav bar
  */
 nav{
-    background-color: #3BA6BA;
-    padding: 30px;
+    background-color: #F0BC68;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
     text-align: center;
 }
 

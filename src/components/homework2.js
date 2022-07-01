@@ -3,9 +3,9 @@
  * Date: June 10, 2022
  * Assignment: Homework 2 Exploring React Components
  */
+import 'bootstrap/dist/css/bootstrap.css';
 
-import './App.css';
-
+import '../css/hw2.css'
 //checks for if the number is prime
 //return true if prime
 //return false if not prime
@@ -94,8 +94,8 @@ function Grid(props){
  */
 function Homework2() {
     return (
-        <div className="App">
-            <h1>Homework 2</h1>
+        <div id = "hw2grid">
+            <h3>Homework 2: Grid Layout</h3>
             <Grid start= {1} end = {79}/>
             <footer>Done by: Jimmy Huynh</footer>
         </div>

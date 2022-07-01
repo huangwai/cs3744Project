@@ -1,13 +1,57 @@
 /*Color Template*/
-.yellow-hex {color: #F8ED6D; }
-.white-hex {color: #FFFFFF; }
-.orange-hex {color: #EF885D; }
-.red-hex {color: #B73A5C; }
-.purple-hex {color: #6B2D70; }
-.blue-hex {color: #3BA6BA; }
+.baby-pink {color: #F2C4C4; }
+.light-sliver-hex {color: #F2F2F2; }
+.clementine-hex {color: #F2A477; }
+.red-orange-hex {color: #F29472; }
+.state-blue-hex {color: #A9B5D9; }
 .lavendar-hex {color: #CCCCFF; }
 
+#footer{
+    text-align: center;
+    padding: 20px;
+    height:50px;
+    background-color: #F0BC68;
+}
+#name{
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
 #info{
-    background-color: #EF885D;
-    margin-left: 500px;
+    color: black;
+    padding: 20px;
+    margin-left: auto;
+    border-style: dot-dash;
+}
+#profileImg{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px ;
+    padding-left: 50px ;
+    padding-top: 5px;
+}
+/**
+edits the information section
+ */
+#quote{
+    padding: 20px;
+    text-align: center;
+}
+#homeBody{
+    background-color: #A9B5D9;
+    padding:-10px;
+}
+
+/**
+changes color background
+ */
+div{
+    background-color: #F0BC68;
 }

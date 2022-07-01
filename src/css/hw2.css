@@ -1,0 +1,29 @@
+/*Color Template*/
+.baby-pink {color: #F2C4C4; }
+.light-sliver-hex {color: #F2F2F2; }
+.clementine-hex {color: #F2A477; }
+.red-orange-hex {color: #F29472; }
+.state-blue-hex {color: #A9B5D9; }
+.lavendar-hex {color: #CCCCFF; }
+.pastel-teel-hex {color: #C4D7D1; }
+
+container{
+    background-color: red;
+}
+
+#hw2grid{
+    background-color: #CCCCFF;
+}
+
+h3{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color:#F2F2F2;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+    color:#A9B5D9;
+    font-size: 20px;
+}

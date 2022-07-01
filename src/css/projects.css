@@ -1,44 +1,31 @@
 /*Color Template*/
-.yellow-hex {color: #F8ED6D; }
-.white-hex {color: #FFFFFF; }
-.orange-hex {color: #EF885D; }
-.red-hex {color: #B73A5C; }
-.purple-hex {color: #6B2D70; }
-.blue-hex {color: #3BA6BA; }
+.baby-pink {color: #F2C4C4; }
+.light-sliver-hex {color: #F2F2F2; }
+.clementine-hex {color: #F2A477; }
+.red-orange-hex {color: #F29472; }
+.state-blue-hex {color: #A9B5D9; }
 .lavendar-hex {color: #CCCCFF; }
+.pastel-teel-hex {color: #C4D7D1; }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /**
  Style the homework 1 block
  */
-#hw1{
-    padding: 20px;
-    background-color: #F8ED6D;
-    text-align: left;
+#hw1, #hw3{
+    padding: 5px;
+    background-color: #F2C4C4;
+    fill-opacity: 100%;
 }
+
 /**
 Style the homework 2 block
  */
-#hw2{
-    padding: 20px;
-    background-color: #EF885D;
-    text-align: right;
-}
-/**
-style the homework 3 block
- */
-#hw3{
-    padding: 20px;
-    background-color: #B73A5C;
-    text-align: left;
-
-}
-/**
-Edit the homework 4 block
- */
-#hw4{
-    padding: 20px;
-    background-color: #6B2D70;
+#hw2, #hw4{
+    padding: 5px;
+    background-color: #CCCCFF;
     text-align: right;
 }
 
@@ -46,5 +33,31 @@ Edit the homework 4 block
 The background color changes to indicate
 user is on that block*/
 #hw1:hover, #hw2:hover, #hw3:hover,#hw4:hover{
-    background-color: #CCCCFF;
+    background-color: grey;
+    color:black;
+    opacity: 0.3;
+    font-size: 35px;
+
+}
+
+/*
+Styles each images
+ */
+#projectImg{
+    border-radius: 50px;
+    margin: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+/*
+Styles the description of each homework assignment
+ */
+#hwdesc1, #hwdesc4, #hwdesc2, #hwdesc3{
+    border: 10px;
+    background-color: transparent;
+    font-size: 25px ;
+    color: #F2F2F2;
 }

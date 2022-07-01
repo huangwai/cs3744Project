@@ -1,3 +1,5 @@
+/*eslint no-undef: 0*/
+
 /**
  * Author: Jimmy Huynh
  * Date: 06/19/2022
@@ -24,18 +26,18 @@ function setup(){
 }
 
 //play button represents
- function playButton(){
-     resetVariables();
+function playButton(){
+    resetVariables();
     //iterate thru circles list
-     for (let index = 0; index < random(5,20); index++)
-     {
-         //add new circle into the circles list
-         circles[index] = new Circle(random(30,width - 30),random(30,height - 30),(random(-3,3)),random(3,-3));
-     }
-     //console.log("circles length is: " + circles.length) //log circles length
- }
+    for (let index = 0; index < random(5,20); index++)
+    {
+        //add new circle into the circles list
+        circles[index] = new Circle(random(30,width - 30),random(30,height - 30),(random(-3,3)),random(3,-3));
+    }
+    //console.log("circles length is: " + circles.length) //log circles length
+}
 
- //Function for when cursor is clicked on the canvas
+//Function for when cursor is clicked on the canvas
 //handles if the cursor is clicked on a circles object
 //deletes circle if clicked on.
 //game runs until no more circles exist
@@ -72,23 +74,24 @@ function resetVariables(){
     totalHits = 0;
 }
 
- // creates circles and adds to the circles array
+// creates circles and adds to the circles array
 //resets all global variables
 function resetButton(){
     resetVariables();
     //console.log("Circle array length is: " + circles.length);
- } //end of resetSketch
+} //end of resetSketch
 
 /**
  * Draws the P5.js file out
  */
 function draw(){
     background(128);
+
     //move and draw the circle in the circles array
     for(let index  = 0; index < circles.length; index++){
-            circles[index].move();
-            circles[index].display();
-     }
+        circles[index].move();
+        circles[index].display();
+    }
 
 }//end of draw function
 

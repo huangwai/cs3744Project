@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "./Header";
-import MyFooter from "./Footer";
 import '../css/projects.css'
 import{Outlet} from "react-router-dom"
 
@@ -10,7 +9,8 @@ function Page(){
         <div>
             <Header/>
             <Outlet/>
-            <MyFooter/>
+            <p id = "footer">CS 3744: Final Project -
+                Done By Jimmy Huynh</p>
         </div>
 
     )
