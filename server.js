@@ -10,7 +10,7 @@ server.use(express.static(publicPath))
 // server.use(express.static(publicPath));
 // server.use(express.static(p5Path))
 
-server.get("/*", (req, res)=>{
+server.get("/", (req, res)=>{
     res.sendFile(path.join(publicPath, 'index.html'))
 })
 
