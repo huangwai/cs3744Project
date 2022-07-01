@@ -7,10 +7,9 @@ const publicPath = path.join(__dirname, 'build')
 
  const p5Path = path.join(__dirname,'src');
 server.use(express.static(publicPath))
-// server.use(express.static(publicPath));
-// server.use(express.static(p5Path))
 
-server.get("/", (req, res)=>{
+
+server.get("/*", (req, res)=>{
     res.sendFile(path.join(publicPath, 'index.html'))
 })
 
@@ -21,14 +20,3 @@ server.listen(port, (err)=>{
     }
     console.log(`Server Running. Listening on port ${port}`)
 })
-
-// server.get("/",(req,res) => {
-//     res.sendFile(path.join(publicPath,'index.html'))
-// })
-//
-// server.get("/*",(req,res) => {
-//     res.send("Page Missing")
-// })
-// server.get("/p5/*",(req,res)=>{
-//     res.redirect("/")
-// })
