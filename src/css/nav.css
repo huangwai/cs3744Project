@@ -1,0 +1,35 @@
+/*Color Template*/
+.yellow-hex {color: #F8ED6D; }
+.white-hex {color: #FFFFFF; }
+.orange-hex {color: #EF885D; }
+.red-hex {color: #B73A5C; }
+.purple-hex {color: #6B2D70; }
+.blue-hex {color: #3BA6BA; }
+.lavendar-hex {color: #CCCCFF; }
+
+/*
+Style nav bar when hovering over
+ */
+nav a:hover {
+background-color: #FFFFFF;
+    color:black;
+}
+nav a{
+    color:#FFFFFF;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 14px;
+    margin: 5px;
+    align-content: center;
+    text-align: center;
+}
+/*
+Style the nav bar
+ */
+nav{
+    background-color: #3BA6BA;
+    padding: 30px;
+    text-align: center;
+}
+

@@ -1,0 +1,13 @@
+/*Color Template*/
+.yellow-hex {color: #F8ED6D; }
+.white-hex {color: #FFFFFF; }
+.orange-hex {color: #EF885D; }
+.red-hex {color: #B73A5C; }
+.purple-hex {color: #6B2D70; }
+.blue-hex {color: #3BA6BA; }
+.lavendar-hex {color: #CCCCFF; }
+
+#info{
+    background-color: #EF885D;
+    margin-left: 500px;
+}

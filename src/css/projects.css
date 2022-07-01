@@ -1,0 +1,50 @@
+/*Color Template*/
+.yellow-hex {color: #F8ED6D; }
+.white-hex {color: #FFFFFF; }
+.orange-hex {color: #EF885D; }
+.red-hex {color: #B73A5C; }
+.purple-hex {color: #6B2D70; }
+.blue-hex {color: #3BA6BA; }
+.lavendar-hex {color: #CCCCFF; }
+
+
+/**
+ Style the homework 1 block
+ */
+#hw1{
+    padding: 20px;
+    background-color: #F8ED6D;
+    text-align: left;
+}
+/**
+Style the homework 2 block
+ */
+#hw2{
+    padding: 20px;
+    background-color: #EF885D;
+    text-align: right;
+}
+/**
+style the homework 3 block
+ */
+#hw3{
+    padding: 20px;
+    background-color: #B73A5C;
+    text-align: left;
+
+}
+/**
+Edit the homework 4 block
+ */
+#hw4{
+    padding: 20px;
+    background-color: #6B2D70;
+    text-align: right;
+}
+
+/*When hovering over each homework block
+The background color changes to indicate
+user is on that block*/
+#hw1:hover, #hw2:hover, #hw3:hover,#hw4:hover{
+    background-color: #CCCCFF;
+}
