@@ -8,7 +8,7 @@ import NotFound from "./components/notFoundPage";
 import Homework2 from "./components/homework2";
 import P5Comp from "./components/p5"
 import NasaComponent from "./components/Homework1";
-import LineChart from "./components/d3";
+import ReturnP5 from "./components/p5";
 
 
 function App(){
@@ -23,7 +23,7 @@ function App(){
                 <Route path = {"1"} element={<NasaComponent />}/>
                 <Route path = {"2"} element={<Homework2 />}/>
                 <Route path = {"3"} element={<P5Comp />}/>
-                <Route path = {"4"} element={<LineChart />}/>
+                <Route path = {"4"} element={<ReturnP5 />}/>
                 <Route path={"*"} element = {<NotFound />}/>
             </Route>
 
