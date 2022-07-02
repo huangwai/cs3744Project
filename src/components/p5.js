@@ -94,12 +94,4 @@ class P5Comp extends Component {
     }
 }
 
-function ReturnP5(){
-    return(
-        <div>
-            <h3>Homework 3: P5</h3>
-
-        </div>
-    )
-}
-export default ReturnP5
+export default P5Comp

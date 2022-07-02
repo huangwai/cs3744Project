@@ -132,4 +132,12 @@ function LineChart() {
 
     )
 }
-export default LineChart
+
+function ReturnD3(){
+    return(
+        <div>
+            <h3>Homework 4: D3</h3>
+        </div>
+    )
+}
+export default ReturnD3
