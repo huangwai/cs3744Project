@@ -86,6 +86,7 @@ class P5Comp extends Component {
         //We use this div as our reference for the element we want to add as a child
         return (
             <>
+                <h3>Homework 3: P5</h3>
                 <div ref={this.myRef}>
                 </div>
             </>
