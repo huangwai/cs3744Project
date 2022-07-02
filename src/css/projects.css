@@ -14,18 +14,30 @@
 /**
  Style the homework 1 block
  */
-#hw1, #hw3{
+#hw1{
     padding: 5px;
     background-color: #F2C4C4;
+    fill-opacity: 100%;
+}
+
+#hw3{
+    padding: 5px;
+    background-color: #F29472;
     fill-opacity: 100%;
 }
 
 /**
 Style the homework 2 block
  */
-#hw2, #hw4{
+#hw2{
     padding: 5px;
     background-color: #CCCCFF;
+    text-align: right;
+}
+
+#hw4{
+    padding: 5px;
+    background-color: #F2A477;
     text-align: right;
 }
 
